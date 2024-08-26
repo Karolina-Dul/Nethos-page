@@ -10,13 +10,13 @@ import rossmann from "../Images/rossmann.png";
 export const Slider = () => {
   // const [currentIndex, setCurrentIndex] = useState(0);
   const logos = [
-    { id: 1, src: allegro, alt: "allegro 1" },
-    { id: 2, src: rossmann, alt: "allegro 2" },
-    { id: 3, src: grycan, alt: "allegro 3" },
-    { id: 4, src: legimi, alt: "allegro 4" },
-    { id: 5, src: lisek, alt: "allegro 5" },
-    { id: 6, src: lubimyczytac, alt: "allegro 6" },
-    { id: 7, src: modivo, alt: "allegro 7" },
+    { id: 1, src: allegro, alt: "allegro" },
+    { id: 2, src: rossmann, alt: "rossmann" },
+    { id: 3, src: grycan, alt: "grycan" },
+    { id: 4, src: legimi, alt: "legimi" },
+    { id: 5, src: lisek, alt: "lisek" },
+    { id: 6, src: lubimyczytac, alt: "lubimyczytac" },
+    { id: 7, src: modivo, alt: "modivo" },
   ];
 
   return (
