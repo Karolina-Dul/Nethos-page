@@ -284,14 +284,6 @@ h4 {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1296px) {
-  .office {
-    background-image: url("https://www.inogenalliance.com/sites/default/files/styles/node_banner/public/2023-10/1280xauto_office-risk-assessments.jpg?h=10d202d3&itok=eVwGqzhU");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 85vh;
-  }
-
   .Hero-section p {
     font-size: 2rem;
     width: 65vw;
@@ -350,15 +342,6 @@ h4 {
     padding: 0;
     width: 100%;
     overflow: hidden;
-  }
-
-  .office {
-    background-image: url("https://www.inogenalliance.com/sites/default/files/styles/node_banner/public/2023-10/1280xauto_office-risk-assessments.jpg?h=10d202d3&itok=eVwGqzhU");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    width: 100%;
-    height: 85vh;
   }
 
   .Hero-section p {
@@ -435,6 +418,10 @@ h4 {
     box-sizing: border-box;
     padding: 30px;
     line-height: 2.2rem;
+  }
+
+  .office {
+    background-position: 15%;
   }
 
   h1 {
@@ -534,6 +521,10 @@ h4 {
     line-height: 2.2rem;
   }
 
+  .office {
+    background-position: 16%;
+  }
+
   h1 {
     font-size: 2.8rem;
     margin-bottom: 1vh;
@@ -604,12 +595,4 @@ h4 {
     font-size: 2vh;
     line-height: 1.6rem;
   }
-}
-
-/* COLORS */
-colors {
-  background-color: #009fe3;
-  background-color: #ffffff;
-  background-color: #b1b1b3;
-  background-color: #98be13;
 }

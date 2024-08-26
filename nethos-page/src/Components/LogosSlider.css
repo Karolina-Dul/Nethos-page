@@ -2,42 +2,81 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Ukrywa nadmiarowy kontent */
 }
 
 .slider {
-  width: 90%; /* Dostosuj szerokość slajdera */
-  overflow: hidden; /* Ukrywa nadmiarowy kontent */
-  position: relative;
+  width: 90%;
+  overflow: hidden;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .slider-content {
   display: flex;
-  transition: transform 0.5s ease; /* Animacja przesunięcia */
+  animation: 25s slide infinite linear;
 }
 
 .logo-wrapper {
-  /* width: 20%; */
-  /* Każdy logo zajmuje 20% szerokości, co daje 5 logo w rzędzie */
-  flex-shrink: 0; /* Zapobiega kurczeniu się elementów */
-  margin-right: 5vw;
+  flex-shrink: 0;
+  margin: 2vw;
   height: 50px;
   display: flex;
   justify-content: flex-start;
 }
 
 .logo {
-  /* width: 100%;  */
-  /* Dostosuj szerokość logotypów do kontenera */
-  /* height: auto;  */
-  /* Utrzymuje proporcje logo */
   height: 50px;
   width: auto;
 }
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .slider-content {
+    animation: 15s slide infinite linear;
+  }
 
-.slider-button {
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
+  .logo {
+    height: 40px;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-300%);
+    }
+  }
+
+  .logo-wrapper {
+    margin: 0vw 5vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slider-content {
+    animation: 15s slide infinite linear;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-300%);
+    }
+  }
+
+  .logo-wrapper {
+    margin: 0vw 5vw;
+  }
 }
