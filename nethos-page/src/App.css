@@ -1,0 +1,615 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+.App {
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: white;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.nethos-logo {
+  transform: scale(0.5);
+}
+
+.office {
+  background-image: url("https://www.inogenalliance.com/sites/default/files/styles/node_banner/public/2023-10/1280xauto_office-risk-assessments.jpg?h=10d202d3&itok=eVwGqzhU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+
+.Hero-section p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  padding: 2vh 2vw;
+  background-color: #98be13;
+  line-height: 2.9rem;
+  position: absolute;
+  left: 5vw;
+  top: 20vh;
+  width: 60vw;
+}
+
+.Products-section {
+  padding: 8vh 10vw;
+}
+
+.icon {
+  height: 15vh;
+  width: auto;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 2vw;
+  text-align: center;
+}
+
+.Why-Nethos-section .list {
+  width: 80%;
+}
+
+.Why-Nethos-section {
+  padding: 0vh 0vw 8vh 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.About-us-section {
+  padding: 5vh 10vw;
+}
+
+.member-of-team img {
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.member-of-team {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  align-items: center;
+}
+
+.member-of-team p {
+  padding: 0 3vw;
+}
+
+.description-of-member {
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 7vh;
+  text-align: center;
+  line-height: 2.3rem;
+}
+
+.member-of-team h3 {
+  font-size: 36px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 5vh;
+}
+
+.position {
+  font-size: 28px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+}
+
+.team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .circular_image img {
+  width: 100%;
+}
+
+.Satisfied-clients-section {
+  padding: 0vh 10vw 10vh;
+}
+
+h1 {
+  font-size: 3.7rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  margin-bottom: 7vh;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 3vh;
+}
+
+.description-of-services {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 3rem;
+}
+.list li {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 4rem;
+}
+
+.button {
+  background-color: #98be13;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  align-items: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 60vw;
+  height: 10vh;
+  max-width: 450px;
+  margin: 5vh;
+  cursor: pointer;
+  transform: rotate(-3deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+.title-with-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Satisfied-clients-section .description {
+  margin-bottom: 12vh;
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 3rem;
+}
+
+.About-us-section .about-nethos {
+  font-size: 32px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 3rem;
+  margin-bottom: 15vh;
+}
+
+@media only screen and (min-width: 1296px) and (max-width: 1700px) {
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 33vw;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-of-team {
+    width: 80vw;
+  }
+
+  .member-of-team h3 {
+    font-size: 52px;
+  }
+
+  .position {
+    font-size: 48px;
+    margin-top: -2vh;
+  }
+  .description-of-member {
+    font-size: 36px;
+    margin-bottom: 10vh;
+    line-height: 3.7rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1296px) {
+  .office {
+    background-image: url("https://www.inogenalliance.com/sites/default/files/styles/node_banner/public/2023-10/1280xauto_office-risk-assessments.jpg?h=10d202d3&itok=eVwGqzhU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+  }
+
+  .Hero-section p {
+    font-size: 2rem;
+    width: 65vw;
+    line-height: 2.9rem;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    margin-bottom: 5vh;
+  }
+
+  .title-with-button {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 33vw;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-of-team {
+    width: 80vw;
+  }
+
+  .member-of-team h3 {
+    font-size: 52px;
+  }
+
+  .position {
+    font-size: 48px;
+    margin-top: -2vh;
+  }
+  .description-of-member {
+    font-size: 36px;
+    margin-bottom: 10vh;
+    line-height: 3.7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .office {
+    background-image: url("https://www.inogenalliance.com/sites/default/files/styles/node_banner/public/2023-10/1280xauto_office-risk-assessments.jpg?h=10d202d3&itok=eVwGqzhU");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 85vh;
+  }
+
+  .Hero-section p {
+    font-size: 1.7rem;
+    width: 75vw;
+    line-height: 2.2rem;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    margin-bottom: 5vh;
+  }
+
+  .title-with-button {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: 33vw;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-of-team {
+    width: 80vw;
+  }
+
+  .member-of-team h3 {
+    font-size: 40px;
+  }
+
+  .position {
+    font-size: 36px;
+    margin-top: -1vh;
+  }
+  .description-of-member {
+    font-size: 30px;
+    margin-bottom: 10vh;
+    line-height: 3rem;
+  }
+
+  .Satisfied-clients-section .description {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .Hero-section p {
+    font-size: 1.4rem;
+    width: 80vw;
+    position: none;
+    margin: 4vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 2.2rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 3vh;
+  }
+
+  .button {
+    padding: 0.75rem 3rem;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+
+  .title-with-button {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: auto;
+  }
+
+  .About-us-section .about-nethos {
+    text-align: justify;
+    hyphens: auto;
+    margin-bottom: 10vh;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-of-team {
+    width: 80vw;
+  }
+
+  .member-of-team h3 {
+    font-size: 40px;
+    margin-top: 0vh;
+  }
+
+  .position {
+    font-size: 36px;
+    line-height: 3rem;
+    margin-top: -2vh;
+  }
+  .description-of-member {
+    font-size: 30px;
+    margin-bottom: 10vh;
+    line-height: 2.7rem;
+    margin-top: 0;
+  }
+
+  .member-of-team img {
+    transform: scale(0.8);
+  }
+
+  .Satisfied-clients-section .description {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .App-header {
+    justify-content: center;
+  }
+
+  .office {
+    background-position: center;
+  }
+
+  .Hero-section p {
+    font-size: 1.4rem;
+    width: 80vw;
+    position: none;
+    margin: 4vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+    line-height: 2.2rem;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1vh;
+  }
+
+  .title-with-button {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    width: auto;
+  }
+
+  .About-us-section .about-nethos {
+    text-align: justify;
+    hyphens: auto;
+    margin-bottom: 0;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .member-of-team {
+    width: 80vw;
+  }
+
+  .description-of-member {
+    font-size: 26px;
+    margin-bottom: 0;
+    line-height: 2.1rem;
+    margin-top: 0vh;
+  }
+
+  .member-of-team h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: -4vh;
+  }
+
+  .position {
+    font-size: 28px;
+    line-height: 2.5rem;
+    margin-top: -2vh;
+  }
+
+  .member-of-team img {
+    transform: scale(0.6);
+  }
+
+  .Satisfied-clients-section .description {
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  .button {
+    padding: 0.75rem 2rem;
+    font-size: 2vh;
+    line-height: 1.6rem;
+  }
+}
+
+/* COLORS */
+colors {
+  background-color: #009fe3;
+  background-color: #ffffff;
+  background-color: #b1b1b3;
+  background-color: #98be13;
+}

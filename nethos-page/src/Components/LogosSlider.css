@@ -1,0 +1,43 @@
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ukrywa nadmiarowy kontent */
+}
+
+.slider {
+  width: 90%; /* Dostosuj szerokość slajdera */
+  overflow: hidden; /* Ukrywa nadmiarowy kontent */
+  position: relative;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.5s ease; /* Animacja przesunięcia */
+}
+
+.logo-wrapper {
+  /* width: 20%; */
+  /* Każdy logo zajmuje 20% szerokości, co daje 5 logo w rzędzie */
+  flex-shrink: 0; /* Zapobiega kurczeniu się elementów */
+  margin-right: 5vw;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  /* width: 100%;  */
+  /* Dostosuj szerokość logotypów do kontenera */
+  /* height: auto;  */
+  /* Utrzymuje proporcje logo */
+  height: 50px;
+  width: auto;
+}
+
+.slider-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
